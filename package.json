@@ -1,0 +1,32 @@
+{
+  "name": "generar-videos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "studio": "remotion studio src/index.jsx",
+    "render": "remotion render src/index.jsx SpotVertical output/spot-9x16.mp4 --codec h264 --crf 18 --concurrency 2",
+    "render:fast": "bash scripts/render-fast.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SESELOVSKYDarian/Generar-Videos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/SESELOVSKYDarian/Generar-Videos/issues"
+  },
+  "homepage": "https://github.com/SESELOVSKYDarian/Generar-Videos#readme",
+  "dependencies": {
+    "@remotion/cli": "4.0.538",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.538"
+  },
+  "devDependencies": {
+    "hyperframes": "0.8.189"
+  }
+}

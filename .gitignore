@@ -1,0 +1,4 @@
+node_modules/
+output/*
+!output/spot-9x16.mp4
+!output/preview-final.jpg
